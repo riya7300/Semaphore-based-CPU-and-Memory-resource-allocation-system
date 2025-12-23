@@ -1,0 +1,94 @@
+# -------------------------
+# 🐍 Python Ignored Files
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter or runtime caches
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+*.spec
+
+# Temporary Python build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# ⚙️ C / C++ Build Files
+# -------------------------
+*.o
+*.obj
+*.dll
+*.exe
+*.out
+*.a
+*.so
+*.lib
+*.lo
+*.lai
+*.pdb
+*.idb
+
+# Compiler/intermediate build directories
+Debug/
+Release/
+build/
+bin/
+obj/
+temp/
+tmp/
+
+# -------------------------
+# 🧾 Logs & Output Files
+# -------------------------
+events.log
+output.json
+*.log
+*.tmp
+*.bak
+
+# -------------------------
+# 🖼 GUI / Visualization Outputs
+# -------------------------
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# -------------------------
+# 🧰 IDE & OS Files
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# 🧱 Generated Files
+# -------------------------
+# Auto-generated C code from the Python GUI
+semaphore_simulator.c
+semaphore_simulator.exe
+
+# -------------------------
+# 📦 Optional Ignore
+# -------------------------
+# Uncomment if you don’t want to commit logs or JSON data
+# /output/
+# /logs/
